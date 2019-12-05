@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Compatibility Survey</title>
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		#header{
+		   background-image: url("https://www.cedricat.cat/pics/b/4/45902_love-hearts-backgrounds.jpg");
+		   color: white;
+		   font-family: 'Love Ya Like A Sister', cursive;
+		}
+		body{
+			background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/pink-sparkle-hearts-with-bokeh-background-photography-backdropj-0168_6915381a-cd32-4443-a246-8d5b55435e90_1024x1024.jpg?v=1535709195");
+			background-size: cover;
+			font-family: 'Love Ya Like A Sister', cursive;
+		}
+		.modal-body{
+			background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/pink-sparkle-hearts-with-bokeh-background-photography-backdropj-0168_6915381a-cd32-4443-a246-8d5b55435e90_1024x1024.jpg?v=1535709195");
+			background-size: cover;
+			font-family: 'Love Ya Like A Sister', cursive;
+		}
+	</style>
+</head>
+<body>
+	<section class="container">
+		<section id="header" class="jumbotron text-center">
+			<h1 class="display-3">Compatibility Survey</h1>
+			<p>This survey will help you to find your best match to you, to share experiences and moments as the best friends, please use the 1 to 5 options to select the importance of each question.</p>
+		</section>
+		<form>
+			<div class="form-group row">
+			    <label for="memberName" class="col-sm-2 col-form-label">Member Name:</label>
+				<div class="col-sm-10">
+				    <input type="text" class="form-control" id="memberName" placeholder="John Doe (Required)" required>
+				</div>
+			</div>
+			<div class="form-group row">
+			    <label for="memberPhoto" class="col-sm-2 col-form-label">Member URL Photo:</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="memberPhoto" placeholder="URL Photo (Required)" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I like to visit museums:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q1" name="question1" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q1">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q1" name="question1" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q1">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q1" name="question1" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q1">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q1" name="question1" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q1">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q1" name="question1" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q1">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I like to travel very often:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q2" name="question2" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q2">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q2" name="question2" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q2" name="question2" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q2">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q2" name="question2" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q2">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q2" name="question2" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q2">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I like to visit outdoor places:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q3" name="question3" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q3">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q3" name="question3" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q3">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q3" name="question3" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q3" name="question3" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q3">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q3" name="question3" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q3">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I like to play or practice any sport:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q4" name="question4" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q4">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q4" name="question4" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q4">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q4" name="question4" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q4">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q4" name="question4" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q4">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q4" name="question4" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q4">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I like to go out to drink or go to the party every weekend:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q5" name="question5" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q5">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q5" name="question5" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q5">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q5" name="question5" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q5">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q5" name="question5" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q5">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q5" name="question5" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q5">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I like pets:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q6" name="question6" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q6">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q6" name="question6" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q6">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q6" name="question6" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q6">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q6" name="question6" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q6">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q6" name="question6" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q6">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I would like to have a family in the future:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q7" name="question7" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q7">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q7" name="question7" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q7">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q7" name="question7" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q7">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q7" name="question7" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q7">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q7" name="question7" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q7">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>I like to learn new things or enjoy new experiences:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q8" name="question8" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q8">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q8" name="question8" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q8">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q8" name="question8" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q8">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q8" name="question8" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q8">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q8" name="question8" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q8">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>It's important to always be fashionable and buying last gadgets or clothes:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q9" name="question9" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q9">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q9" name="question9" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q9">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q9" name="question9" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q9">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q9" name="question9" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q9">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q9" name="question9" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q9">5</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>The money is very important to me:</label><br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r1q10" name="question10" class="custom-control-input" value="1" checked>
+					<label class="custom-control-label" for="r1q10">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r2q10" name="question10" class="custom-control-input" value="2">
+					<label class="custom-control-label" for="r2q10">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r3q10" name="question10" class="custom-control-input" value="3">
+					<label class="custom-control-label" for="r3q10">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r4q10" name="question10" class="custom-control-input" value="4">
+					<label class="custom-control-label" for="r4q10">4</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" id="r5q10" name="question10" class="custom-control-input" value="5">
+					<label class="custom-control-label" for="r5q10">5</label>
+				</div>
+			</div>
+		</form>
+		<div class="text-center">
+			<button id="submit" type="submit" class="btn btn-danger btn-lg btn-block">Submit Form</button>
+		</div>
+		<div id="matchModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Your Best Match!</h1>
+					</div>
+					<div class="modal-body">
+						<h2 id="matchName"></h2>
+						<img id="matchPhoto" class="modal-content" src="#">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal">Close Window</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+		    <a href="/api/friends">Friends List API</a>
+		    <span>|</span>
+			<a href="https://github.com/jfsilvah/FriendFinder">GitHub Repo</a>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$("#submit").on("click", function(event) {
+			event.preventDefault();
+			var required = true;
+			if($("#memberName").val() === "" || $("#memberPhoto").val() === "") {
+				required = false;
+				alert("Please enter your name and URL for your photo");
+			}
+			if(required === true) {
+				var newMember = {memberName: $("#memberName").val().trim(),
+					             memberPhoto: $("#memberPhoto").val().trim(),
+					             scores: [$("input[name='question1']:checked").val(),
+								          $("input[name='question2']:checked").val(),
+										  $("input[name='question3']:checked").val(),
+										  $("input[name='question4']:checked").val(),
+										  $("input[name='question5']:checked").val(),
+										  $("input[name='question6']:checked").val(),
+										  $("input[name='question7']:checked").val(),
+										  $("input[name='question8']:checked").val(),
+										  $("input[name='question9']:checked").val(),
+										  $("input[name='question10']:checked").val()]};
+				$.post("/api/friends", newMember, function(data) {
+					$("#matchName").text(data.memberName);
+					$("#matchPhoto").attr("src", data.memberPhoto);
+					$("#matchModal").modal("toggle");
+				});
+			}
+		});
+	</script>
+</body>
+</html>
+
