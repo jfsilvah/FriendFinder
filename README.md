@@ -9,9 +9,9 @@
 * The app will save your data to be available for next users applying to the survey
 * There is a video available (FriendFinder.mp4) to check how the app is working
 
-![Screenshot](assets/images/screenshot.JPG)
-![Screenshot](assets/images/screenshot2.JPG)
-![Screenshot](assets/images/screenshot3.JPG)
+![Screenshot](app/public/screenshot.JPG)
+![Screenshot](app/public/screenshot2.JPG)
+![Screenshot](app/public/screenshot3.JPG)
 
 ## Technologies used to develop the app
 - HTML5
