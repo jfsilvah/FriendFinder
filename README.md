@@ -1,21 +1,31 @@
 # Friend Finder
 
-### Description
+## Overview
 
-A MP4 video (FriendFinder.mp4) is included in the files to explain how the program is working.
+* The app includes an array with the initial friends that can be matched with the answers of each person
+* There is a survey with 10 questions after entering the name and image profile
+* After answering the survey the app will look for the best option to be compatible taking the answers and comparing the most common interests
+* A modal window will be displayed with the namee and image of the best option
+* The app will save your data to be available for next users applying to the survey
+* There is a video available (FriendFinder.mp4) to check how the app is working
 
-https://github.com/jfsilvah/FriendFinder/blob/master/FriendFinder.mp4
+![Screenshot](assets/images/screenshot.JPG)
+![Screenshot](assets/images/screenshot2.JPG)
+![Screenshot](assets/images/screenshot3.JPG)
 
-There are 4 files for this activity:
+## Technologies used to develop the app
+- HTML5
+- CSS3
+- Bootstrap
+- Javascript
+- JQuery
+- JSON
+- Node.js
+- Express.js
+- Heroku
 
-friends.js - Includes the array with the initial friends that can be matched
-apiRoutes.js - It has the 2 routes useed to work with the API, the GET event returns the actual array and the POST event will process the survey sent adding the new user to the array an returning the match for the user
-htmlRoutes.js - It handles the HTML that will be returned by the app for every possible path that the user can access (root, home, survey)
-server.js - Main file that process any user request and using the other JS files will process any user request
-survey.html - It has 10 questions with 5 radio buttons for every possible answer that will help to the app to find a match and it will display the match for every survey
-home.html - Main page that will submit the survey
-
-The MP4 explain how the programs are working and you will se how is called.
-The APP has been loaded in heroku and here is the URL to access the path:
-
+## App Link
 https://jfsilvah-friendfinder.herokuapp.com/
+
+## Author
+ISC Francisco Silva
